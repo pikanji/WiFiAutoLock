@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_preference_entries">
+        <item>@string/common_lock</item>
+        <item>@string/common_unlock</item>
+    </string-array>
+    <string-array name="default_preference_values">
+        <item>@string/common_true</item>
+        <item>@string/common_false</item>
+    </string-array>
+</resources>

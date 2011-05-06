@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="@string/register_ssid_select_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/spinner_ssid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></Spinner>
+    <Button
+        android:text="@string/register_ssid_select_scan"
+        android:id="@+id/button_scan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true" />
+</LinearLayout>

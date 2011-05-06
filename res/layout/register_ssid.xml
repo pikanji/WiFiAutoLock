@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RadioGroup
+        android:id="@+id/raidogr_ssid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:text="@string/register_ssid_radio_select"
+            android:id="@+id/radio_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true" />
+        <RadioButton android:text="@string/register_ssid_radio_manual"
+            android:id="@+id/radio_manual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false" />
+    </RadioGroup>
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include android:id="@+id/select" layout="@layout/reg_select"/>
+        <include android:id="@+id/manual" layout="@layout/reg_manual"/>
+    </ViewFlipper>
+    <RadioGroup
+        android:id="@+id/raidogr_lock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:text="@string/common_unlock"
+            android:id="@+id/radio_unlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true" />
+        <RadioButton android:text="@string/common_lock"
+            android:id="@+id/radio_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false" />
+    </RadioGroup>
+	<LinearLayout
+	    android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10pt">
+		<Button
+		    android:text="@string/register_ssid_add"
+		    android:id="@+id/button_add"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		<Button android:text="@string/common_done"
+		    android:id="@+id/button_done"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+	</LinearLayout>
+</LinearLayout>

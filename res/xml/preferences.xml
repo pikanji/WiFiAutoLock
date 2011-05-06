@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:title="@string/pref_title_run"
+        android:summary="@string/pref_sum_stopped"
+        android:key="@string/pref_key_run" />
+    <PreferenceScreen
+        android:title="@string/pref_title_ssid_manage"
+        android:summary="@string/pref_sum_ssid_manage">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="net.pikanji.wifiautolock"
+            android:targetClass="net.pikanji.wifiautolock.ManageSsidActivity" />
+    </PreferenceScreen>
+    <ListPreference
+        android:title="@string/pref_title_unreg_area"
+        android:summary="@string/pref_sum_unreg_area"
+        android:key="@string/pref_key_unreg_area"
+        android:entries="@array/default_preference_entries"
+        android:entryValues="@array/default_preference_values"
+        android:dialogTitle="@string/pref_dialog_title_unreg_area" />
+    <EditTextPreference
+        android:title="@string/pref_title_interval"
+        android:summary="@string/pref_sum_interval"
+        android:key="@string/pref_key_interval"
+        android:inputType="number"
+        android:dialogTitle="@string/pref_dialog_title_interval" />
+    <PreferenceScreen
+        android:title="@string/pref_title_lock_setting"
+        android:summary="@string/pref_sum_lock_setting">
+        <intent android:action="android.settings.SECURITY_SETTINGS" />
+    </PreferenceScreen>
+</PreferenceScreen>

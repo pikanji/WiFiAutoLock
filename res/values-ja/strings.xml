@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="common_cancel">キャンセル</string>
+	<string name="common_done">終了</string>
+	<string name="common_remove">削除</string>
+    <string name="common_lock">ロック</string>
+    <string name="common_unlock">アンロック</string>
+	<string name="register_ssid_no_selection">SSIDを選択してください。</string>
+	<string name="register_ssid_no_input">SSIDを入力してください。</string>
+	<string name="manage_ssid_remove">削除</string>
+	<string name="manage_ssid_add_ssid">SSID登録</string>
+	<string name="register_ssid_add">登録</string>
+	<string name="pref_sum_stopped">チェックしてオートロックを有効にします。</string>
+	<string name="pref_sum_started">チェックを外してオートロックを停止します。</string>
+	<string name="pref_sum_ssid_manage">タップしてSSID管理画面を表示します。</string>
+	<string name="pref_sum_interval">ロック設定の更新頻度を秒で指定します。</string>
+	<string name="pref_sum_unreg_area">未登録エリアのロック設定をします。</string>
+	<string name="pref_dialog_title_interval">更新頻度（秒）</string>
+	<string name="pref_dialog_title_unreg_area">未登録エリアの設定</string>
+	<string name="pref_dialog_msg_interval">入力範囲：</string>
+	<string name="prog_dialog_msg">スキャン中...</string>
+	<string name="toast_ssid_added">SSIDが登録されました。</string>
+	<string name="alert_dialog_conf_rm">削除してもよろしいですか？</string>
+	<string name="pref_title_run">オートロック有効化</string>
+	<string name="pref_title_ssid_manage">登録済みSSIDリスト</string>
+	<string name="pref_title_unreg_area">未登録エリア</string>
+	<string name="pref_title_interval">更新頻度</string>
+	<string name="pref_title_lock_setting">ロック設定を開く</string>
+	<string name="pref_sum_lock_setting">タップしてシステムのロック設定画面を開きます。</string>
+	<string name="register_ssid_manual_msg">SSIDを入力してください</string>
+	<string name="register_ssid_select_msg">SSIDをリストから選択してください</string>
+	<string name="register_ssid_select_scan">スキャン</string>
+	<string name="register_ssid_radio_select">リストから選択</string>
+	<string name="register_ssid_radio_manual">マニュアル入力</string>
+    <string name="dialog_disclaimer_title">免責事項</string>
+    <string name="dialog_disclaimer_msg">ロックパターンの失念等、利用者の過失を含む本アプリケーションを使用することによるいかなる損害の責任を作者は一切負い兼ねます旨、ご了承のうえご利用ください。</string>
+    <string name="dialog_disclaimer_agree">同意する</string>
+    <string name="dialog_disclaimer_exit">終了する</string>
+    <string name="dialog_first_run_msg">ロックパターン（指リストまたはロックNo.）が設定されていない場合はロック設定ボタンを押して設定してください。未設定の状態ではロックをかけることができません。</string>
+    <string name="dialog_first_run_setting">ロック設定</string>
+
+
+
+</resources>
